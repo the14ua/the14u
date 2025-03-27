@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily News</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
 </head>
 <body>
     <header>
         <h1>The 1 4 U</h1>
         <p>Your source for the latest updates</p>
     </header>
-    <nav>
+    <nav id="navbar">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">World</a></li>
@@ -23,16 +24,36 @@
     </nav>
     <main>
         <section class="main-news">
-            <article>
+            <article class="news-item">
                 <h2>Breaking News Headline</h2>
                 <p>500 Casualties in a Plane Crash at Norway</p>
-                <img src="crash.jpg" width="300px" height="200px" />            
+                <img src="crash.jpg" alt="Crash Image" class="news-image" />
             </article>
-            <article>
+            <article class="news-item">
                 <h2>Another Major Story</h2>
                 <p>Trump resigns himself, believing he is no more a capable leader.</p>
-                <img src="trump.jpg" width="300px" height="200px" />
-            </article
+                <img src="trump.jpg" alt="Trump Image" class="news-image" />
+            </article>
+            <article class="news-item">
+                <h2>Tech News: AI Breakthrough</h2>
+                <p>New AI technology is poised to revolutionize industries worldwide.</p>
+                <img src="deepseek.jpg" alt="AI Image" class="news-image" />
+            </article>
+            <article class="news-item">
+                <h2>Sports Update</h2>
+                <p>Team X wins the championship in a thrilling final match.</p>
+                <img src="teamx.jpeg" alt="Sports Image" class="news-image" />
+            </article>
+            <article class="news-item">
+                <h2>Entertainment: Movie Release</h2>
+                <p>The most anticipated movie of the year is set to release this week.</p>
+                <img src="movie.jpg" alt="Movie Image" class="news-image" />
+            </article>
+            <article class="news-item">
+                <h2>Global Politics</h2>
+                <p>New policies are changing the political landscape around the world.</p>
+                <img src="politics.jpg" alt="Politics Image" class="news-image" />
+            </article>
         </section>
         <aside>
             <h3>Latest Updates</h3>
